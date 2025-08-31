@@ -73,41 +73,7 @@ A professional, modern website for Shree Moolpuri Construction and Supplier (SMC
 - Node.js (version 14 or higher)
 - npm or yarn package manager
 
-### Installation Steps
 
-1. **Clone or download the project files**
-   ```bash
-   # If using git
-   git clone <repository-url>
-   cd smcs.com
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm start
-   ```
-
-4. **Open in browser**
-   - The website will automatically open at `http://localhost:3000`
-   - If it doesn't open automatically, navigate to this URL in your browser
-
-### Build for Production
-
-To create a production build:
-```bash
-npm run build
-```
-
-This creates a `build` folder with optimized files ready for deployment.
-
-## Project Structure
-
-```
 smcs.com/
 ├── public/
 │   ├── index.html
@@ -133,87 +99,6 @@ smcs.com/
 └── README.md
 ```
 
-## Key Features
-
-### 🎨 **Design & UX**
-- Modern, professional design
-- Responsive layout for all devices
-- Smooth navigation and interactions
-- Professional color scheme (blues, oranges)
-- Clean typography with Inter font
-
-### 🧭 **Navigation**
-- Single-page application with React Router
-- All navigation occurs within the same tab
-- Active page indicators
-- Mobile-responsive hamburger menu
-- Smooth scrolling and transitions
-
-### 📱 **Responsive Design**
-- Mobile-first approach
-- Optimized for desktop, tablet, and mobile
-- Flexible grid layouts
-- Scalable images and icons
-- Touch-friendly interface
-
-### 📧 **Contact Integration**
-- Contact form with email integration
-- Direct mailto links for immediate contact
-- Form validation and user feedback
-- Multiple contact methods
-
-### 🎯 **Content Strategy**
-- SEO-friendly structure
-- Professional business copy
-- Industry-specific terminology
-- Clear calls-to-action
-- Comprehensive company information
-
-## Available Scripts
-
-- `npm start` - Runs the app in development mode
-- `npm run build` - Builds the app for production
-- `npm test` - Launches the test runner
-- `npm run eject` - Ejects from Create React App (irreversible)
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
-## Deployment
-
-The built files can be deployed to any static hosting service:
-- Netlify
-- Vercel
-- GitHub Pages
-- AWS S3
-- Traditional web hosting
-
-## Customization
-
-### Colors
-Main colors can be modified in `src/index.css` and `src/App.css`:
-- Primary: `#2c3e50` (Dark Blue)
-- Secondary: `#3498db` (Blue)
-- Accent: `#e67e22` (Orange)
-- Success: `#27ae60` (Green)
-
-### Content
-- Update company information in respective page components
-- Modify contact details in `src/pages/Contact.js` and `src/components/Footer.js`
-- Add or remove navigation items in `src/components/Navbar.js`
-
-## Support
-
-For technical support or questions about the website:
-- Email: smcskapuriya@gmail.com
-- Subject: Website Technical Support
-
----
 
 **Built with ❤️ for Shree Moolpuri Construction and Supplier**  
 *Powering Rajasthan's construction and renewable energy future*
